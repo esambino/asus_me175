@@ -139,6 +139,9 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #special-sectionOverview #multiTouch.content h2,
 #special-sectionOverview #fit.content h2
  { font-size:32px; line-height:36px;}
+#special-sectionOverview #fit.content p {
+    width:280px;
+}
 
 /*global*/
 .page .content{ background-position:center top;}
