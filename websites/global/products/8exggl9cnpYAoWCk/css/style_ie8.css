@@ -10,8 +10,11 @@
 { opacity:1; margin-top:0; }
 
 /*==beauty==*/
-article#beauty figure{  bottom:0;}
+#beauty figure{  bottom:0;}
 #Dual figure.phone { left:330px;}
+#asusGallery figure.phone1{ bottom:0px;}
+#asusGallery figure.phone2{  bottom:0;}
+
 
 article#phoneCall figure{ bottom:0;}
 

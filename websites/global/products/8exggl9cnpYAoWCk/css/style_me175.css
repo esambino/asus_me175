@@ -57,12 +57,12 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
  {background-position:-40px 0;}*/
 
 /*white arrow*/
-#special-sectionOverview #sliderNavTouch a.tabarrow.prev, 
+/*#special-sectionOverview #sliderNavTouch a.tabarrow.prev,*/ 
 #special-sectionOverview #sliderNavUbiquity a.tabarrow.prev, 
 #special-sectionOverview #sliderNavApplication a.tabarrow.prev
 {	background-position:0 -75px; }
 
-#special-sectionOverview #sliderNavTouch a.tabarrow.next, 
+/*#special-sectionOverview #sliderNavTouch a.tabarrow.next,*/ 
 #special-sectionOverview #sliderNavUbiquity a.tabarrow.next, 
 #special-sectionOverview #sliderNavApplication a.tabarrow.next 
 { background-position:-40px -75px; }
@@ -103,7 +103,7 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #special-sectionOverview .content h2 {	font-size:24px;	line-height:24px;	margin-bottom:15px;	color:inherit;}
 #special-sectionOverview .content h3 {	font-style:italic;	font-size:24px;	margin-bottom:9px;	color:inherit;}
 #special-sectionOverview .content p{ font-family: 'helvetica_lt_stdlight'; font-size:16px; line-height:23px;	margin-left:-5px;}
-
+#special-sectionOverview .page .content hgroup p { font-family: 'helvetica_lt_stdlight';}
 
 #special-sectionOverview #beauty.content h1,#special-sectionOverview #sound.content h1
 ,#special-sectionOverview #touch.content h1,#special-sectionOverview #responsive.content h1,#special-sectionOverview #ubiquity.content h1,#special-sectionOverview #supernote.content h1
@@ -130,6 +130,11 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #special-sectionOverview #touch.content p { width:270px; font-family: 'helvetica_lt_stdlight'; }
 
 #special-sectionOverview #speaker.content h2 { font-size:32px; line-height:36px;}
+
+#special-sectionOverview #speaker.content hgroup p,
+#special-sectionOverview #sonicMaster.content hgroup p,
+#special-sectionOverview #audioWizard.content hgroup p
+ { font-family: 'helvetica_lt_stdlight'; }
 
 #special-sectionOverview #multiTouch.content h2,
 #special-sectionOverview #fit.content h2
@@ -249,9 +254,9 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #beauty.animate figure{  bottom:0;}*/
 #beauty figure.kv-fonepad { top:60px }
 
-#phoneCall hgroup{ width:280px; top:180px; left:140px;}
+#phoneCall hgroup{ width:280px; top:180px; left:100px;}
 #phoneCall.animate figure{ bottom:0;}
-#phoneCall figure{ width:635px; height:624px; bottom:-200px; right:-60px;}
+#phoneCall figure{ width:635px; height:624px; bottom:-200px; right:-100px;}
 #phoneCall .noteText{ font-size:12px; line-height:16px; bottom:65px; left:0; width:430px; position:absolute; color:#555;}
 
 #people hgroup{ width:310px; top:230px; left:560px; color:#fff;}
@@ -393,7 +398,7 @@ animation:speaker 0.8s;
 
 
 #fit hgroup{ width:350px; top:180px; left:120px; color:#362a00;}
-
+#fit hgroup p { width:360px;}
 #coating hgroup{ width:650px; top:60px; left:175px; color:#362a00;}
 #coating figure{ width:960px; height:468px;  bottom:-40px; left:0px;}
 #coating.animate figure{ bottom:0;}
@@ -421,7 +426,7 @@ animation:speaker 0.8s;
 #ubiquity figure.kv-fonepad {top:70px; left:120px}
 #ubiquity.animate figure.kv-fonepad { left:190px}
 #ubiquity hgroup{ width:530px; top:270px; left:600px; color:rgb(255,101,0);}
-#ubiquity hgroup p{ width:300px; font-family: 'helvetica_lt_stdlight'; }
+#ubiquity hgroup p{ width:270px; font-family: 'helvetica_lt_stdlight'; }
 #special-sectionOverview #ubiquity hgroup h2{ margin-bottom:5px; margin-top:15px;}
 
 #special-sectionOverview #battery hgroup { left:80px; top:100px;}
@@ -431,11 +436,13 @@ animation:speaker 0.8s;
 #special-sectionOverview #slot hgroup h2, 
 #special-sectionOverview #webstorage hgroup h2, 
 #special-sectionOverview #miracast hgroup h2 { font-size:32px; line-height:36px;}
+#special-sectionOverview #miracast hgroup h2 {width:300px;}
 #special-sectionOverview #battery hgroup h2 { width:400px; }
-#battery hgroup{ width:370px; top:70px; left:125px; color:#fff;}
-#slot hgroup{ width:650px; top:75px; left:200px; color:#322609;}
+#special-sectionOverview #battery hgroup { width:370px; top:70px; left:125px; color:#fff;}
+#special-sectionOverview #battery hgroup p { font-family: 'helvetica_lt_stdlight'; }
+#special-sectionOverview #slot hgroup{ width:650px; top:75px; left:200px; color:#322609;}
 #webstorage hgroup{ width:780px; top:72px; left:85px; color:#322609;}
-#miracast hgroup{ width:290px; top:135px; left:115px; color:#322609;}
+#miracast hgroup{ width:290px; top:130px; left:90px; color:#322609;}
 
 #battery figure.phoneTalk{ width:362px; height:578px; top:140px; left:510px; z-index:2;}
 #battery figure.phoneVideo{ width:493px; height:379px; top:225px; left:0px; z-index:1;}
