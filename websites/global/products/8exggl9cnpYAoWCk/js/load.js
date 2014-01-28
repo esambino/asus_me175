@@ -34,7 +34,7 @@ document.write('<script src="/websites/global/products/' + producthash + '/js/js
 document.write('<script src="/websites/global/products/' + producthash + '/js/jsLibs/jquery.tinyscrollbar.min.js"></script>');
 document.write('<script src="/websites/global/products/' + producthash + '/js/jsLibs/jquery.easyListSplitter.js"></script>');
 
-//ME372
+//ME175
 document.write('<script src="/websites/global/products/' + producthash + '/js/jquery.cycle.all.js"></script>');
 document.write('<script src="/websites/global/products/' + producthash + '/js/jquery.easing.1.3.js"></script>');
 document.write('<script src="/websites/global/products/' + producthash + '/js/jquery.reel.js"></script>');

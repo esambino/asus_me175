@@ -103,7 +103,7 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #special-sectionOverview .content h2 {	font-size:24px;	line-height:24px;	margin-bottom:15px;	color:inherit;}
 #special-sectionOverview .content h3 {	font-style:italic;	font-size:24px;	margin-bottom:9px;	color:inherit;}
 #special-sectionOverview .content p{ font-family: 'helvetica_lt_stdlight'; font-size:16px; line-height:23px;	margin-left:-5px;}
-#special-sectionOverview .page .content hgroup p { font-family: 'helvetica_lt_stdlight';}
+#special-sectionOverview .page .content hgroup p { width:430px; font-family: 'helvetica_lt_stdlight';}
 
 #special-sectionOverview #beauty.content h1,#special-sectionOverview #sound.content h1
 ,#special-sectionOverview #touch.content h1,#special-sectionOverview #responsive.content h1,#special-sectionOverview #ubiquity.content h1,#special-sectionOverview #supernote.content h1
@@ -149,6 +149,7 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 
 /*index*/
 #special-sectionOverview #index{ height:800px;}
+#special-sectionOverview #index p.note { width:135px; height:50px; font-size:20px; top:80px; left:30px; position:absolute; color:#dfdfdf; text-align:right;}
 #special-sectionOverview .page.index{ height:800px;background-color:#f2f2f2; background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/index/bg_index.jpg); background-position:top center;}
 #index figure{ width:696px; height:609px; top:125px; left:-90px; position:absolute; z-index:-1;}
 #index hgroup{ width:470px; top:210px; left:390px; color:#fff;}
@@ -250,19 +251,21 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 #Dual figure.phone { top:50px; left:390px;}
 #Dual.animate figure.phone { left:330px;}
 #Dual hgroup {width:330px; top:160px; left:90px;}
+#special-sectionOverview #Dual hgroup p { width:340px; }
 
 #beauty hgroup{ width:350px; top:250px; left:560px; color:#fff;}
-#beauty hgroup h2{  width:500px;}
+#beauty hgroup h2{ width:500px;}
 /*#beauty figure{ width:279px; height:395px;  bottom:-50px; right:160px;}
 #beauty.animate figure{  bottom:0;}*/
 #beauty figure.kv-fonepad { top:60px }
 
 #phoneCall hgroup{ width:280px; top:180px; left:100px;}
+#special-sectionOverview #phoneCall hgroup p { width:320px; }
 #phoneCall.animate figure{ bottom:0;}
 #phoneCall figure{ width:635px; height:624px; bottom:-200px; right:-100px;}
 #phoneCall .noteText{ font-size:12px; line-height:16px; bottom:65px; left:0; width:430px; position:absolute; color:#555;}
 
-#people hgroup{ width:310px; top:230px; left:560px; color:#fff;}
+#special-sectionOverview #people hgroup{ width:400px; top:230px; left:560px; color:#fff;}
 #people.animate figure{ bottom:0; }
 #people figure{ width:691px; height:575px;  bottom:-200px; left:40px;}
 
@@ -317,6 +320,8 @@ section#special-sectionOverview { background: none;height: 5830px;padding-bottom
 .page.sound.bg2 { background-position:bottom center;}
 
 #sound hgroup{ width:350px; top:190px; left:30px; color:rgb(255,255,0);}
+
+#special-sectionOverview #audioWizard hgroup p{width:300px;}
 
 /*#sound figure{ width:727px; height:700px;  bottom:0; right:-50px;}
 #sound.animate figure{  right:0px;}*/
@@ -409,11 +414,11 @@ animation:speaker 0.8s;
 /*==responsive==*/
 /*#special-sectionOverview  #responsive.content h1{ font-size:45px; margin-bottom:5px; line-height:60px;text-transform:capitalize; letter-spacing:-2px;}*/
 #responsive{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/response/response_bg.jpg);}
-#responsive hgroup{ width:340px; top:250px; left:50px; color:rgb(0,183,255);}
+#responsive hgroup{ width:340px; top:250px; left:40px; color:rgb(0,183,255);}
 #special-sectionOverview #responsive.content hgroup h1{ font-size:65px; }
 #special-sectionOverview #responsive.content hgroup h2{ margin-top:15px; margin-bottom:10px; }
-#special-sectionOverview #responsive.content hgroup p{ font-family: 'helvetica_lt_stdlight'; }
-#responsive figure.kv-fonepad{ left:380px; top:0px; }
+#special-sectionOverview #responsive.content hgroup p{ font-family: 'helvetica_lt_stdlight'; width:440px;}
+#responsive figure.kv-fonepad{ left:410px; top:0px; }
 
 /*==ubiquity==*/
 /*nav*/
@@ -446,8 +451,9 @@ animation:speaker 0.8s;
 #special-sectionOverview #slot hgroup{ width:650px; top:75px; left:200px; color:#322609;}
 #webstorage hgroup{ width:780px; top:72px; left:85px; color:#322609;}
 #miracast hgroup{ width:290px; top:130px; left:90px; color:#322609;}
+#special-sectionOverview  #miracast hgroup p { width:270px; }
 
-#battery figure.phoneTalk{ width:362px; height:578px; top:140px; left:510px; z-index:2;}
+#battery figure.phoneTalk{ width:362px; height:578px; top:140px; left:560px; z-index:2;}
 #battery figure.phoneVideo{ width:493px; height:379px; top:225px; left:0px; z-index:1;}
 
 #battery.animate figure.phoneTalk{ top:90px;}
@@ -509,9 +515,13 @@ animation:speaker 0.8s;
 #accessory{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/accesory/cover_bg.jpg);}
 #headset{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/accesory/earphone_bg.jpg);}
 
-#accessory hgroup{ width:450px; top:110px; left:550px; color:rgb(0, 84, 166);}
+#accessory hgroup{ width:450px; top:60px; left:330px; color:rgb(0, 84, 166);}
 #special-sectionOverview #accessory hgroup h2 { margin-bottom:10px;}
-#special-sectionOverview #accessory hgroup p { width:400px; font-family: 'helvetica_lt_stdlight';}
+#special-sectionOverview #accessory hgroup p { width:340px; font-family: 'helvetica_lt_stdlight';}
+#special-sectionOverview #accessory p.note { width:300px; color:white; font-size:13px; font-family: 'helvetica_lt_stdlight'; position:absolute; color:rgb(0, 84, 166); /*text-shadow:2px 1px 2px #222;*/}
+#special-sectionOverview #accessory p.note.n1 { top:570px; left:400px;}
+#special-sectionOverview #accessory p.note.n2 { top:510px; left:920px;}
+
 #special-sectionOverview #headset hgroup{ width:400px; top:80px; left:500px; color:#221b06;}
 #special-sectionOverview #headset hgroup h2 { width:480px; margin-bottom:10px; font-size:32px; line-height:36px; margin-bottom:10px;}
 
@@ -537,11 +547,49 @@ animation:speaker 0.8s;
 #special-sectionOverview #spec th{ color:#000; text-align:center; width:200px; font-weight:bold;}
 #special-sectionOverview #spec td{ border-bottom:1px solid #aec2d5; color:#555; line-height:22px;}
 
-@media (max-width: 1360px) {
+
+@media screen and (min-width: 2000px) {
+
+#special-sectionOverview .page.index{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/index/bg_index.jpg) no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#beauty{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/beauty_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#phoneCall{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/3gphone_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#people{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/people_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#design{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/design_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#display{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/display_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#splendid{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/splendid_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#camera{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/camera_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#asusGallery{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/gallery_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#Dual{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/beauty/dual_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#sound { background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/sound/sound_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#audioWizard { background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/sound/audiowizard_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+.page.sound {background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/sound/sonic_master_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#touch{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/touch/touch_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#multiTouch{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/touch/multi_touch_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#fit{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/touch/fits_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#responsive{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/response/response_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#ubiquity{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/cloud/ubiquity_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#battery{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/cloud/battery_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#slot{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/cloud/microsd_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#webstorage{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/cloud/webstorage_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#miracast{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/cloud/miracast_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#supernote{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/app/supernote_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#floatingApp{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/app/floating_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+#accessory{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/accesory/cover_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+#headset{ background-image:url(/websites/global/products/8exggl9cnpYAoWCk/img/common/accesory/earphone_bg.jpg) center no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+}
+
+@media (max-width: 1500px) {
     #special-sectionOverview .page a.tabarrow.prev {margin-left:-100px;}
     #special-sectionOverview .page a.tabarrow.next {margin-right:-100px;}
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     #special-sectionOverview .page a.tabarrow.prev {margin-left:0px;}
     #special-sectionOverview .page a.tabarrow.next {margin-right:0px;}
     #special-sectionOverview #touch hgroup{ left:480px;}

@@ -19,7 +19,7 @@
     $("#special-sectionOverview #wrap").css("left", $(window).width() <= 960 ? 0 : ($(window).width() - 960) / -2 );
 
 
-    $("#main-menu li a").bind('touchend click', function () {
+    $("#main-menu li a").on('touchend click', function () {
         var idx = $(this).parent().index();
         $("html,body").animate({
             scrollTop : $(".page").eq(idx).offset().top - 30
@@ -27,7 +27,7 @@
     });
 
  
-    $(".page nav li a").bind('touchend click', function () {
+    $(".page nav li a").on('touchend click', function () {
         var o = $(this);
 
         var activeIndex = o.parent().index();
